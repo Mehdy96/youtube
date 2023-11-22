@@ -1,0 +1,39 @@
+<style>
+body{
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+
+}
+
+.leftside{
+width: 100px;
+margin-top: 0px;
+
+position: fixed;
+left: 0px;
+top: 50px;
+bottom: 0px;
+background-color: rgb(255, 255, 255);
+z-index: 200;
+}
+.leftside img{
+  width: 30px;
+
+}
+.leftside div{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:  arial;
+  font-weight: 500;
+  
+}
+
+.leftside div:hover{
+  background-color: rgb(228, 228, 228);
+}
+
+</style>
